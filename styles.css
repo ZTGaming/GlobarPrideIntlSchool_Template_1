@@ -1,0 +1,450 @@
+/* #d0ab6d
+golden
+#8aa936
+light green
+#476b31
+dark green
+#221f21
+black
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+* {
+  margin: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #F5F5F5;
+  z-index: 0;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h3 {}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+}
+
+/* .logo
+{
+  background-image:url(logo.png);
+} */
+.header {
+  width: 100%;
+  height: 88vh;
+  background: url(building.png) no-repeat 50% 50%;
+  background-size: cover;
+  padding: 0;
+}
+
+.header h1 {
+  text-align: center;
+  position: relative;
+  top: 20%;
+  color: black;
+}
+
+.header h2 {
+  text-align: center;
+  position: relative;
+  top: 19%;
+  color: black;
+}
+
+.header .logo_school {
+  position: relative;
+  bottom: 0;
+  top: 19%;
+  display: block;
+  left: 42%;
+  height: 300px;
+  width: 240px;
+}
+
+
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  left: 34%;
+  padding: 1% 0 0% 0;
+  display: block;
+  z-index: 1;
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: black;
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+  width: 35%;
+}
+
+nav.black ul {
+  background: white;
+}
+
+nav.black ul li a {
+  color: black;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+nav ul li:hover {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: #d0ab6d;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  transition: 0.5s;
+}
+
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #000;
+  text-align: right;
+  box-sizing: border-box;
+  /* padding: 15px 24px; */
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+
+/* SUHAIB STARTS HERE */
+.bahrain {
+  background-color: #d0ab6d;
+  border: 1px solid black;
+  height: fit-content;
+  width: 70%;
+  padding: 2% 2% 2% 2%;
+  position: relative;
+  left: 15%;
+  top: 25%;
+  border-radius: 5%;
+  padding-top: 2%;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 40px;
+  /* display: inline; */
+  text-align: center
+}
+
+.bahrain h1 {
+  color: #476b31;
+  position: relative;
+  top: 0;
+}
+
+.bahrain p {
+  font-size: 20px;
+}
+
+h1.gallery_text {
+  position: relative;
+  top: 37%;
+  text-align: center;
+}
+
+/* SUHAIB ENDS HERE */
+@media(max-width: 1134px) {
+  nav {
+    width: 100%;
+    left: 0;
+    padding: 0;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #000;
+    width: 100%;
+  }
+
+  nav.black ul {
+    background: #000;
+  }
+  nav.black ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .showing {
+    max-height: 54em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    /* padding: 24px; */
+    text-align: center;
+  }
+
+  .menu-icon {
+    display: inline-block;
+    padding: 0;
+  }
+
+  .header .logo_school {
+    left: 24%;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .header h2 {
+    font-size: 1rem;
+  }
+
+  .bahrain {
+    height: fit-content;
+  }
+
+  .bahrain p {
+    width: 100%;
+    padding: 0;
+  }
+
+  .card-body .fa {
+    font-size: 2rem;
+    padding: 6% 2%;
+  }
+}
+
+.main {
+  background-size: cover;
+  background-position: center;
+}
+
+.ziyad {
+  background-color: #8aa936;
+}
+
+#main {
+  background-color: #8aa936;
+}
+
+#stats {
+  background-color: #476b31;
+}
+
+#cont {
+  padding-top: 10px;
+  background-color: #8aa936;
+}
+
+.acts {
+  background-color: #476b31;
+  padding-bottom: 10px;
+  position: relative;
+  top: 40%;
+}
+
+.acts h1 {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  color: #343a40;
+}
+
+.counter-section {
+  color: #ffff;
+}
+
+.icon-box {
+  border: 1px solid #ffff;
+  height: 85px;
+  width: 85px;
+  margin: 20px auto;
+  transform: rotate(45deg);
+}
+
+.contact {
+  text-align: center;
+  color: #ffff;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+.counter-box p {
+  font-size: 30px;
+}
+
+.counter-box .counter {
+  font-size: 50px;
+}
+
+.icon-box .fa {
+  font-size: 40px;
+  margin: 20px auto;
+  color: #ffc800;
+  transform: rotate(-45deg);
+}
+
+.back1 {
+  background: url(p.jpg);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position-x: 0;
+}
+
+.swiper-la-tasrikh {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  position: relative;
+  top: 35%;
+  z-index: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 350px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #00000026);
+}
+
+.img {
+  height: 300px;
+  width: 500px;
+}
+
+.details {
+  color: bla;
+  text-align: center;
+}
+
+.details h3 {
+  font-size: 30px;
+}
+
+.details h3 span {
+  font-size: 20px
+}
+
+.hoe {
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+}
+
+/* MAP */
+.mapouter {
+  position: relative;
+  text-align: center;
+  height: 290px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 88%;
+  width: 100%;
+}
+
+#gmap_canvas {
+  height: 100%;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif
+}
+
+.row {
+  position: relative;
+  top: 50%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col-sm-6 {
+  padding-bottom: 2%
+}
+
+.card-body .fa {
+  font-size: 4rem;
+  padding: 16% 10%;
+}
+
+.btn {
+  padding: 1% 6%;
+  margin-top: 1%;
+}
+
+.fa-instagram {
+  color: #DD2A7B;
+}
+
+.fa-whatsapp {
+  color:#4FCE5D;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.card-body .fa:hover {
+  font-size: 4.5rem;
+  transition: 1s;
+}
+.card-body{
+  text-align: center;
+}
